@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (2.0.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.2):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.2)
+  - AFNetworking/Security (2.0.2)
+  - AFNetworking/Serialization (2.0.2)
+  - AFNetworking/UIKit (2.0.2):
+    - AFNetworking/NSURLConnection
+  - MBProgressHUD (0.8)
+  - SDWebImage (3.5):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5)
+  - TwilioSDK (1.1.2)
+  - uiview-frame-helpers (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - MBProgressHUD
+  - SDWebImage
+  - TwilioSDK (~> 1.1.2)
+  - uiview-frame-helpers
+
+SPEC CHECKSUMS:
+  AFNetworking: e663917201cdb73f4ad2ba239ad35be8dc9a1e3c
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  SDWebImage: f1a72472f8a2d54445f1fedafe2090593d9caf7f
+  TwilioSDK: 9f2397582ca2a83d5b5a9244dc1e8a438f776038
+  uiview-frame-helpers: d01c252e592b409a5b41332177e2a2da0a661390
+
+COCOAPODS: 0.27.1

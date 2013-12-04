@@ -1,0 +1,67 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MBProgressHUD/MBProgressHUD.h>
+    #import <uiview-frame-helpers/UIView+CBFrameHelpers.h>
+    #import "UIColor+HexHelper.h"
+
+//Private wifi
+
+//#define API_URL(s) [@"http://10.0.1.1:5000" stringByAppendingPathComponent:s]
+//Angie home wifi
+//#define API_URL(s) [@"http://192.168.1.87:5000" stringByAppendingPathComponent:s]
+#define API_URL(s) [@"http://75cf7e46.ngrok.com" stringByAppendingPathComponent:s]
+//#define API_URL(s) [@"http://localhost:3000" stringByAppendingPathComponent:s]
+// localhost
+//#define API_URL(s) [@"http://localhost:5000" stringByAppendingPathComponent:s]
+//#define API_URL(s) [@"http://192.168.0.192:3000" stringByAppendingPathComponent:s]
+//hb
+//#define API_URLS(s) [@"http://10.1.10.30:5000" stringByAppendingPathComponents:s]
+
+//MB PROGRESS HUD
+static void HUDWithErrorInView(UIView *view, NSString *message) {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.mode = MBProgressHUDModeText;
+    hud.labelText = message;
+    hud.minShowTime = 1.0f;
+    [MBProgressHUD hideHUDForView:view animated:YES];
+}
+
+static void HUDWithErrorMessageInView(UIView *view, NSString *message) {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.mode = MBProgressHUDModeText;
+    hud.detailsLabelText = message;
+    hud.minShowTime = 3.0f;
+    [MBProgressHUD hideHUDForView:view animated:YES];
+}
+
+static MBProgressHUD* HUDWithMessageInView(UIView *view, NSString *message) {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.mode = MBProgressHUDModeText;
+    hud.labelText = message;
+    return hud;
+}
+
+static MBProgressHUD* HUDWithIndicatorInView(UIView *view) {
+    MBProgressHUD *existingHUD = [MBProgressHUD HUDForView:view];
+    if (existingHUD) {
+        return existingHUD;
+    }
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    return hud;
+}
+
+#endif

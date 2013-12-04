@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98E6C330830645A9AB33D593 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DB9844BBE44F78AF9EB8F8 /* libPods.a */; };
+		B354D05E1831FF690025B2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D05D1831FF690025B2E2 /* Foundation.framework */; };
+		B354D0601831FF690025B2E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D05F1831FF690025B2E2 /* CoreGraphics.framework */; };
+		B354D0621831FF690025B2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D0611831FF690025B2E2 /* UIKit.framework */; };
+		B354D0681831FF690025B2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B354D0661831FF690025B2E2 /* InfoPlist.strings */; };
+		B354D06A1831FF690025B2E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0691831FF690025B2E2 /* main.m */; };
+		B354D06E1831FF690025B2E2 /* DOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D06D1831FF690025B2E2 /* DOCAppDelegate.m */; };
+		B354D0711831FF690025B2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B354D06F1831FF690025B2E2 /* Main.storyboard */; };
+		B354D0761831FF690025B2E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B354D0751831FF690025B2E2 /* Images.xcassets */; };
+		B354D07D1831FF690025B2E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D07C1831FF690025B2E2 /* XCTest.framework */; };
+		B354D07E1831FF690025B2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D05D1831FF690025B2E2 /* Foundation.framework */; };
+		B354D07F1831FF690025B2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B354D0611831FF690025B2E2 /* UIKit.framework */; };
+		B354D0871831FF690025B2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B354D0851831FF690025B2E2 /* InfoPlist.strings */; };
+		B354D0891831FF690025B2E2 /* PatienceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0881831FF690025B2E2 /* PatienceTests.m */; };
+		B354D094183200050025B2E2 /* DOCTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D093183200050025B2E2 /* DOCTasksViewController.m */; };
+		B354D0971832014E0025B2E2 /* DOCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0961832014E0025B2E2 /* DOCTask.m */; };
+		B354D09A1832E38B0025B2E2 /* DOCTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0991832E38B0025B2E2 /* DOCTaskDetailViewController.m */; };
+		B354D09F18340E160025B2E2 /* DOCPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D09E18340E160025B2E2 /* DOCPatientViewController.m */; };
+		B354D0A21835888C0025B2E2 /* DOCProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0A11835888C0025B2E2 /* DOCProvidersViewController.m */; };
+		B354D0A71835B69D0025B2E2 /* DOCPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0A61835B69D0025B2E2 /* DOCPatient.m */; };
+		B354D0AA1835B9340025B2E2 /* DOCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B354D0A91835B9340025B2E2 /* DOCBaseModel.m */; };
+		B388E4B418446935007CE8A2 /* DOCNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B388E4B318446935007CE8A2 /* DOCNewTaskViewController.m */; };
+		B388E4B718446947007CE8A2 /* DOCNewPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B388E4B618446947007CE8A2 /* DOCNewPatientViewController.m */; };
+		B388E4BA18448D2E007CE8A2 /* DOCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B388E4B918448D2D007CE8A2 /* DOCSplashViewController.m */; };
+		B388E4BD1844903A007CE8A2 /* DOCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B388E4BC1844903A007CE8A2 /* DOCAccount.m */; };
+		B3A5CB0B1847183E00BABA9E /* DOCNewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A5CB0A1847183E00BABA9E /* DOCNewMessageViewController.m */; };
+		B3A5CB0E184726E700BABA9E /* DOCPatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A5CB0D184726E700BABA9E /* DOCPatientsViewController.m */; };
+		B3A5CB12184AABAC00BABA9E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A5CB11184AABAC00BABA9E /* ImageIO.framework */; };
+		B3A5CB14184AB22D00BABA9E /* homer_simpson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A5CB13184AB22D00BABA9E /* homer_simpson.jpg */; };
+		B3A772E318395B960095D0B7 /* DOCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A772E218395B960095D0B7 /* DOCProvider.m */; };
+		D208475B184DACEB00BDF740 /* UIColor+HexHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D208475A184DACEB00BDF740 /* UIColor+HexHelper.m */; };
+		D208475E184DB46900BDF740 /* UIView+AnimationOptionsForCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = D208475D184DB46900BDF740 /* UIView+AnimationOptionsForCurve.m */; };
+		D249907B184EEA740031DE19 /* DOCTaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D249907A184EEA740031DE19 /* DOCTaskTableViewCell.m */; };
+		D26757D9184815CA00E5C1CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26757D8184815CA00E5C1CF /* AVFoundation.framework */; };
+		D26757DB18482B1E00E5C1CF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26757DA18482B1E00E5C1CF /* AssetsLibrary.framework */; };
+		D26757DE1848327900E5C1CF /* UIImage+SampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = D26757DD1848327900E5C1CF /* UIImage+SampleBuffer.m */; };
+		D26757E418483B4200E5C1CF /* DOCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26757E318483B4200E5C1CF /* DOCCameraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B354D0801831FF690025B2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B354D0521831FF690025B2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B354D0591831FF690025B2E2;
+			remoteInfo = Patience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42DB9844BBE44F78AF9EB8F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354D05A1831FF690025B2E2 /* Patience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354D05D1831FF690025B2E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B354D05F1831FF690025B2E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B354D0611831FF690025B2E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B354D0651831FF690025B2E2 /* Patience-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Patience-Info.plist"; sourceTree = "<group>"; };
+		B354D0671831FF690025B2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B354D0691831FF690025B2E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B354D06B1831FF690025B2E2 /* Patience-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Patience-Prefix.pch"; sourceTree = "<group>"; };
+		B354D06C1831FF690025B2E2 /* DOCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOCAppDelegate.h; sourceTree = "<group>"; };
+		B354D06D1831FF690025B2E2 /* DOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOCAppDelegate.m; sourceTree = "<group>"; };
+		B354D0701831FF690025B2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B354D0751831FF690025B2E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B354D07B1831FF690025B2E2 /* PatienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354D07C1831FF690025B2E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B354D0841831FF690025B2E2 /* PatienceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatienceTests-Info.plist"; sourceTree = "<group>"; };
+		B354D0861831FF690025B2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B354D0881831FF690025B2E2 /* PatienceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatienceTests.m; sourceTree = "<group>"; };
+		B354D092183200050025B2E2 /* DOCTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCTasksViewController.h; sourceTree = "<group>"; };
+		B354D093183200050025B2E2 /* DOCTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCTasksViewController.m; sourceTree = "<group>"; };
+		B354D0951832014E0025B2E2 /* DOCTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCTask.h; sourceTree = "<group>"; };
+		B354D0961832014E0025B2E2 /* DOCTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCTask.m; sourceTree = "<group>"; };
+		B354D0981832E38B0025B2E2 /* DOCTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCTaskDetailViewController.h; sourceTree = "<group>"; };
+		B354D0991832E38B0025B2E2 /* DOCTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCTaskDetailViewController.m; sourceTree = "<group>"; };
+		B354D09D18340E160025B2E2 /* DOCPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCPatientViewController.h; sourceTree = "<group>"; };
+		B354D09E18340E160025B2E2 /* DOCPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCPatientViewController.m; sourceTree = "<group>"; };
+		B354D0A01835888C0025B2E2 /* DOCProvidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCProvidersViewController.h; sourceTree = "<group>"; };
+		B354D0A11835888C0025B2E2 /* DOCProvidersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCProvidersViewController.m; sourceTree = "<group>"; };
+		B354D0A51835B69D0025B2E2 /* DOCPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCPatient.h; sourceTree = "<group>"; };
+		B354D0A61835B69D0025B2E2 /* DOCPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCPatient.m; sourceTree = "<group>"; };
+		B354D0A81835B9340025B2E2 /* DOCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCBaseModel.h; sourceTree = "<group>"; };
+		B354D0A91835B9340025B2E2 /* DOCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCBaseModel.m; sourceTree = "<group>"; };
+		B388E4B218446935007CE8A2 /* DOCNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCNewTaskViewController.h; sourceTree = "<group>"; };
+		B388E4B318446935007CE8A2 /* DOCNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCNewTaskViewController.m; sourceTree = "<group>"; };
+		B388E4B518446947007CE8A2 /* DOCNewPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCNewPatientViewController.h; sourceTree = "<group>"; };
+		B388E4B618446947007CE8A2 /* DOCNewPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCNewPatientViewController.m; sourceTree = "<group>"; };
+		B388E4B818448D2D007CE8A2 /* DOCSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCSplashViewController.h; sourceTree = "<group>"; };
+		B388E4B918448D2D007CE8A2 /* DOCSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCSplashViewController.m; sourceTree = "<group>"; };
+		B388E4BB1844903A007CE8A2 /* DOCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCAccount.h; sourceTree = "<group>"; };
+		B388E4BC1844903A007CE8A2 /* DOCAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCAccount.m; sourceTree = "<group>"; };
+		B3A5CB091847183E00BABA9E /* DOCNewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCNewMessageViewController.h; sourceTree = "<group>"; };
+		B3A5CB0A1847183E00BABA9E /* DOCNewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCNewMessageViewController.m; sourceTree = "<group>"; };
+		B3A5CB0C184726E700BABA9E /* DOCPatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCPatientsViewController.h; sourceTree = "<group>"; };
+		B3A5CB0D184726E700BABA9E /* DOCPatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCPatientsViewController.m; sourceTree = "<group>"; };
+		B3A5CB11184AABAC00BABA9E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B3A5CB13184AB22D00BABA9E /* homer_simpson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homer_simpson.jpg; sourceTree = "<group>"; };
+		B3A772E118395B960095D0B7 /* DOCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCProvider.h; sourceTree = "<group>"; };
+		B3A772E218395B960095D0B7 /* DOCProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCProvider.m; sourceTree = "<group>"; };
+		D2084759184DACEB00BDF740 /* UIColor+HexHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexHelper.h"; sourceTree = "<group>"; };
+		D208475A184DACEB00BDF740 /* UIColor+HexHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexHelper.m"; sourceTree = "<group>"; };
+		D208475C184DB46900BDF740 /* UIView+AnimationOptionsForCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationOptionsForCurve.h"; sourceTree = "<group>"; };
+		D208475D184DB46900BDF740 /* UIView+AnimationOptionsForCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationOptionsForCurve.m"; sourceTree = "<group>"; };
+		D2499079184EEA740031DE19 /* DOCTaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCTaskTableViewCell.h; sourceTree = "<group>"; };
+		D249907A184EEA740031DE19 /* DOCTaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCTaskTableViewCell.m; sourceTree = "<group>"; };
+		D26757D8184815CA00E5C1CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D26757DA18482B1E00E5C1CF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D26757DC1848327900E5C1CF /* UIImage+SampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SampleBuffer.h"; sourceTree = "<group>"; };
+		D26757DD1848327900E5C1CF /* UIImage+SampleBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SampleBuffer.m"; sourceTree = "<group>"; };
+		D26757DF1848329D00E5C1CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D26757E218483B4200E5C1CF /* DOCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOCCameraViewController.h; sourceTree = "<group>"; };
+		D26757E318483B4200E5C1CF /* DOCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOCCameraViewController.m; sourceTree = "<group>"; };
+		F15D2BC078D74C398F4FD8F0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B354D0571831FF690025B2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A5CB12184AABAC00BABA9E /* ImageIO.framework in Frameworks */,
+				D26757DB18482B1E00E5C1CF /* AssetsLibrary.framework in Frameworks */,
+				D26757D9184815CA00E5C1CF /* AVFoundation.framework in Frameworks */,
+				B354D0601831FF690025B2E2 /* CoreGraphics.framework in Frameworks */,
+				B354D0621831FF690025B2E2 /* UIKit.framework in Frameworks */,
+				B354D05E1831FF690025B2E2 /* Foundation.framework in Frameworks */,
+				98E6C330830645A9AB33D593 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B354D0781831FF690025B2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354D07D1831FF690025B2E2 /* XCTest.framework in Frameworks */,
+				B354D07F1831FF690025B2E2 /* UIKit.framework in Frameworks */,
+				B354D07E1831FF690025B2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B354D0511831FF690025B2E2 = {
+			isa = PBXGroup;
+			children = (
+				B354D0631831FF690025B2E2 /* Patience */,
+				B354D0821831FF690025B2E2 /* PatienceTests */,
+				B354D05C1831FF690025B2E2 /* Frameworks */,
+				B354D05B1831FF690025B2E2 /* Products */,
+				F15D2BC078D74C398F4FD8F0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B354D05B1831FF690025B2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B354D05A1831FF690025B2E2 /* Patience.app */,
+				B354D07B1831FF690025B2E2 /* PatienceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B354D05C1831FF690025B2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A5CB11184AABAC00BABA9E /* ImageIO.framework */,
+				D26757DF1848329D00E5C1CF /* CoreMedia.framework */,
+				D26757DA18482B1E00E5C1CF /* AssetsLibrary.framework */,
+				D26757D8184815CA00E5C1CF /* AVFoundation.framework */,
+				B354D05D1831FF690025B2E2 /* Foundation.framework */,
+				B354D05F1831FF690025B2E2 /* CoreGraphics.framework */,
+				B354D0611831FF690025B2E2 /* UIKit.framework */,
+				B354D07C1831FF690025B2E2 /* XCTest.framework */,
+				42DB9844BBE44F78AF9EB8F8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B354D0631831FF690025B2E2 /* Patience */ = {
+			isa = PBXGroup;
+			children = (
+				D26757E118483B4200E5C1CF /* Private */,
+				B354D06C1831FF690025B2E2 /* DOCAppDelegate.h */,
+				B354D06D1831FF690025B2E2 /* DOCAppDelegate.m */,
+				B354D0951832014E0025B2E2 /* DOCTask.h */,
+				B354D0961832014E0025B2E2 /* DOCTask.m */,
+				B354D06F1831FF690025B2E2 /* Main.storyboard */,
+				B354D0981832E38B0025B2E2 /* DOCTaskDetailViewController.h */,
+				B354D0991832E38B0025B2E2 /* DOCTaskDetailViewController.m */,
+				B3A5CB13184AB22D00BABA9E /* homer_simpson.jpg */,
+				B354D0751831FF690025B2E2 /* Images.xcassets */,
+				B354D0641831FF690025B2E2 /* Supporting Files */,
+				B354D092183200050025B2E2 /* DOCTasksViewController.h */,
+				B354D093183200050025B2E2 /* DOCTasksViewController.m */,
+				B354D09D18340E160025B2E2 /* DOCPatientViewController.h */,
+				B354D09E18340E160025B2E2 /* DOCPatientViewController.m */,
+				B354D0A01835888C0025B2E2 /* DOCProvidersViewController.h */,
+				B354D0A11835888C0025B2E2 /* DOCProvidersViewController.m */,
+				B354D0A51835B69D0025B2E2 /* DOCPatient.h */,
+				B354D0A61835B69D0025B2E2 /* DOCPatient.m */,
+				B354D0A81835B9340025B2E2 /* DOCBaseModel.h */,
+				B354D0A91835B9340025B2E2 /* DOCBaseModel.m */,
+				B3A772E118395B960095D0B7 /* DOCProvider.h */,
+				B3A772E218395B960095D0B7 /* DOCProvider.m */,
+				B388E4B218446935007CE8A2 /* DOCNewTaskViewController.h */,
+				B388E4B318446935007CE8A2 /* DOCNewTaskViewController.m */,
+				B388E4B518446947007CE8A2 /* DOCNewPatientViewController.h */,
+				B388E4B618446947007CE8A2 /* DOCNewPatientViewController.m */,
+				B388E4B818448D2D007CE8A2 /* DOCSplashViewController.h */,
+				B388E4B918448D2D007CE8A2 /* DOCSplashViewController.m */,
+				B388E4BB1844903A007CE8A2 /* DOCAccount.h */,
+				B388E4BC1844903A007CE8A2 /* DOCAccount.m */,
+				B3A5CB091847183E00BABA9E /* DOCNewMessageViewController.h */,
+				B3A5CB0A1847183E00BABA9E /* DOCNewMessageViewController.m */,
+				B3A5CB0C184726E700BABA9E /* DOCPatientsViewController.h */,
+				B3A5CB0D184726E700BABA9E /* DOCPatientsViewController.m */,
+				D26757DC1848327900E5C1CF /* UIImage+SampleBuffer.h */,
+				D26757DD1848327900E5C1CF /* UIImage+SampleBuffer.m */,
+				D2499079184EEA740031DE19 /* DOCTaskTableViewCell.h */,
+				D249907A184EEA740031DE19 /* DOCTaskTableViewCell.m */,
+			);
+			path = Patience;
+			sourceTree = "<group>";
+		};
+		B354D0641831FF690025B2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B354D0651831FF690025B2E2 /* Patience-Info.plist */,
+				B354D0661831FF690025B2E2 /* InfoPlist.strings */,
+				B354D0691831FF690025B2E2 /* main.m */,
+				B354D06B1831FF690025B2E2 /* Patience-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B354D0821831FF690025B2E2 /* PatienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B354D0881831FF690025B2E2 /* PatienceTests.m */,
+				B354D0831831FF690025B2E2 /* Supporting Files */,
+			);
+			path = PatienceTests;
+			sourceTree = "<group>";
+		};
+		B354D0831831FF690025B2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B354D0841831FF690025B2E2 /* PatienceTests-Info.plist */,
+				B354D0851831FF690025B2E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26757E118483B4200E5C1CF /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				D208475C184DB46900BDF740 /* UIView+AnimationOptionsForCurve.h */,
+				D208475D184DB46900BDF740 /* UIView+AnimationOptionsForCurve.m */,
+				D2084759184DACEB00BDF740 /* UIColor+HexHelper.h */,
+				D208475A184DACEB00BDF740 /* UIColor+HexHelper.m */,
+				D26757E218483B4200E5C1CF /* DOCCameraViewController.h */,
+				D26757E318483B4200E5C1CF /* DOCCameraViewController.m */,
+			);
+			path = Private;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B354D0591831FF690025B2E2 /* Patience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B354D08C1831FF690025B2E2 /* Build configuration list for PBXNativeTarget "Patience" */;
+			buildPhases = (
+				BFDAF005FA5B482E84AC2EDE /* Check Pods Manifest.lock */,
+				B354D0561831FF690025B2E2 /* Sources */,
+				B354D0571831FF690025B2E2 /* Frameworks */,
+				B354D0581831FF690025B2E2 /* Resources */,
+				C7949B336B474623A9DAEEC2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patience;
+			productName = Patience;
+			productReference = B354D05A1831FF690025B2E2 /* Patience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B354D07A1831FF690025B2E2 /* PatienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B354D08F1831FF690025B2E2 /* Build configuration list for PBXNativeTarget "PatienceTests" */;
+			buildPhases = (
+				B354D0771831FF690025B2E2 /* Sources */,
+				B354D0781831FF690025B2E2 /* Frameworks */,
+				B354D0791831FF690025B2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B354D0811831FF690025B2E2 /* PBXTargetDependency */,
+			);
+			name = PatienceTests;
+			productName = PatienceTests;
+			productReference = B354D07B1831FF690025B2E2 /* PatienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B354D0521831FF690025B2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DOC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Angie Lal";
+				TargetAttributes = {
+					B354D07A1831FF690025B2E2 = {
+						TestTargetID = B354D0591831FF690025B2E2;
+					};
+				};
+			};
+			buildConfigurationList = B354D0551831FF690025B2E2 /* Build configuration list for PBXProject "Patience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B354D0511831FF690025B2E2;
+			productRefGroup = B354D05B1831FF690025B2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B354D0591831FF690025B2E2 /* Patience */,
+				B354D07A1831FF690025B2E2 /* PatienceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B354D0581831FF690025B2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354D0761831FF690025B2E2 /* Images.xcassets in Resources */,
+				B354D0681831FF690025B2E2 /* InfoPlist.strings in Resources */,
+				B354D0711831FF690025B2E2 /* Main.storyboard in Resources */,
+				B3A5CB14184AB22D00BABA9E /* homer_simpson.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B354D0791831FF690025B2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354D0871831FF690025B2E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFDAF005FA5B482E84AC2EDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7949B336B474623A9DAEEC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B354D0561831FF690025B2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354D0A21835888C0025B2E2 /* DOCProvidersViewController.m in Sources */,
+				B388E4BA18448D2E007CE8A2 /* DOCSplashViewController.m in Sources */,
+				D26757E418483B4200E5C1CF /* DOCCameraViewController.m in Sources */,
+				B388E4BD1844903A007CE8A2 /* DOCAccount.m in Sources */,
+				B3A5CB0E184726E700BABA9E /* DOCPatientsViewController.m in Sources */,
+				B388E4B418446935007CE8A2 /* DOCNewTaskViewController.m in Sources */,
+				B3A5CB0B1847183E00BABA9E /* DOCNewMessageViewController.m in Sources */,
+				B354D06A1831FF690025B2E2 /* main.m in Sources */,
+				B354D0A71835B69D0025B2E2 /* DOCPatient.m in Sources */,
+				B354D0AA1835B9340025B2E2 /* DOCBaseModel.m in Sources */,
+				B354D0971832014E0025B2E2 /* DOCTask.m in Sources */,
+				D208475B184DACEB00BDF740 /* UIColor+HexHelper.m in Sources */,
+				B354D09A1832E38B0025B2E2 /* DOCTaskDetailViewController.m in Sources */,
+				B354D09F18340E160025B2E2 /* DOCPatientViewController.m in Sources */,
+				B388E4B718446947007CE8A2 /* DOCNewPatientViewController.m in Sources */,
+				B354D094183200050025B2E2 /* DOCTasksViewController.m in Sources */,
+				D208475E184DB46900BDF740 /* UIView+AnimationOptionsForCurve.m in Sources */,
+				D249907B184EEA740031DE19 /* DOCTaskTableViewCell.m in Sources */,
+				B354D06E1831FF690025B2E2 /* DOCAppDelegate.m in Sources */,
+				B3A772E318395B960095D0B7 /* DOCProvider.m in Sources */,
+				D26757DE1848327900E5C1CF /* UIImage+SampleBuffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B354D0771831FF690025B2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B354D0891831FF690025B2E2 /* PatienceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B354D0811831FF690025B2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B354D0591831FF690025B2E2 /* Patience */;
+			targetProxy = B354D0801831FF690025B2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B354D0661831FF690025B2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B354D0671831FF690025B2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B354D06F1831FF690025B2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B354D0701831FF690025B2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B354D0851831FF690025B2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B354D0861831FF690025B2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B354D08A1831FF690025B2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B354D08B1831FF690025B2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B354D08D1831FF690025B2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15D2BC078D74C398F4FD8F0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/angielal/HBProject/Patience,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patience/Patience-Prefix.pch";
+				INFOPLIST_FILE = "Patience/Patience-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B354D08E1831FF690025B2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15D2BC078D74C398F4FD8F0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/angielal/HBProject/Patience,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patience/Patience-Prefix.pch";
+				INFOPLIST_FILE = "Patience/Patience-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B354D0901831FF690025B2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Patience.app/Patience";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patience/Patience-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PatienceTests/PatienceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B354D0911831FF690025B2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Patience.app/Patience";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patience/Patience-Prefix.pch";
+				INFOPLIST_FILE = "PatienceTests/PatienceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B354D0551831FF690025B2E2 /* Build configuration list for PBXProject "Patience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B354D08A1831FF690025B2E2 /* Debug */,
+				B354D08B1831FF690025B2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B354D08C1831FF690025B2E2 /* Build configuration list for PBXNativeTarget "Patience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B354D08D1831FF690025B2E2 /* Debug */,
+				B354D08E1831FF690025B2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B354D08F1831FF690025B2E2 /* Build configuration list for PBXNativeTarget "PatienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B354D0901831FF690025B2E2 /* Debug */,
+				B354D0911831FF690025B2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B354D0521831FF690025B2E2 /* Project object */;
+}
